@@ -1,4 +1,9 @@
+---
+# Front‐matter so Jekyll processes this as SCSS
+---
+
 @import "minima";
+
 
 body {
   margin: 0;
@@ -17,15 +22,14 @@ body,
   padding: 1rem 0;
   background-color: #063737;
 }
-
 .site-header .wrapper {
-  max-width: none;
-  margin: 0 auto;
-  padding: 0 1rem;
-}
-
-.wrapper {
   max-width: none !important;
   margin: 0;
   padding: 0 1rem;
+}
+
+main.wrapper {
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 1rem !important;
 }
