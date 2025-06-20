@@ -1,32 +1,57 @@
 @import "minima";
 
-.site-header {
-  background-color: #063737 !important;
-  padding: 1rem 0;
-  width: 100%;
+// 1. Reset page margins
+body {
   margin: 0;
+  padding: 0;
 }
 
+// 2. Header styling (full-width teal bar)
+.site-header {
+  background-color: #063737 !important;
+  width: 100%;
+  margin: 0;
+  padding: 1rem 0;
+}
+
+// 3. Flex container for left/right sections
 .site-header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   max-width: none !important;
   margin: 0 auto;
   padding: 0 1rem;
 }
 
-.site-title,
-.nav-link {
+// 4. Left side: site title & nav
+.header-left .site-title,
+.header-left .nav-link {
   color: #fff;
   text-decoration: none;
-  margin-right: 1rem;
   font-family: "Roboto", sans-serif;
 }
 
-.social-icons a {
-  margin-right: 0.5rem;
-  display: inline-block;
+.header-left .site-title {
+  font-size: 1.25rem;
+  margin-right: 1rem;
 }
 
-.social-icons img {
+.header-left .nav-link {
+  font-size: 1rem;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-right a {
+  margin-left: 0.5rem;
+}
+
+.header-right img {
   height: 1.25em;
-  vertical-align: middle;
+  width: auto;
+  display: block;
 }
