@@ -40,13 +40,15 @@ body {
 }
 
 .header-left .nav-link {
-  font-size: 1rem;
+  font-size: 125rem;
 }
 
 //–– 5) Right block: icons
 .header-right {
   display: flex;
   align-items: center;
+  margin-left: auto;
+  margin-right: 1rem;
 }
 
 .header-right a {
@@ -66,10 +68,16 @@ main.wrapper {
   padding: 0 1rem !important;
 }
 
+.wrapper {
+  max-width: none !important;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
 // enforce exact icon dimensions
 .social-icon {
-  height: 24px !important;
-  width: 24px !important;
+  height: 27px !important;
+  width: 27px !important;
   object-fit: contain;
   display: block;
 }
