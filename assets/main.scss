@@ -1,3 +1,5 @@
+---
+---
 @import "minima";
 
 //–– 1) Reset overall page margins
@@ -62,4 +64,12 @@ main.wrapper {
   max-width: none !important;
   margin: 0 !important;
   padding: 0 1rem !important;
+}
+
+// enforce exact icon dimensions
+.social-icon {
+  height: 24px !important;
+  width: 24px !important;
+  object-fit: contain;
+  display: block;
 }

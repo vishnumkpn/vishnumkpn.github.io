@@ -1,3 +1,8 @@
+---
+layout: home
+title: Home
+---
+
 # Home
 
 I'm Vishnu Murali Krishnan, a recent engineering graduate from NIT Warangal. I have a strong passion working with and learning about tech in general and specifally about LLMs, Agentic AI and Computer Vision
