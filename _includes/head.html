@@ -8,13 +8,8 @@
     <title>{{ page.title | default: site.title }}</title>
     <meta name="description" content="{{ page.description | default: site.description }}" />
 
-    <!-- Jekyll feed & main stylesheet -->
-    <link
-      rel="alternate"
-      type="application/rss+xml"
-      title="{{ site.title }}"
-      href="{{ "/feed.xml" | relative_url }}"
-    />
+    <!-- RSS feed & main stylesheet -->
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | relative_url }}" />
     <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}" />
 
     <!-- {{ content_for_head }} -->
@@ -25,10 +20,8 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
       rel="stylesheet"
     />
-
   </head>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-QHTYH0M9C2"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QHTYH0M9C2"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -36,4 +29,4 @@
 
   gtag('config', 'G-QHTYH0M9C2');
 </script>
-  <body class="{{ page.layout }}{{ page.classes }}">
+  <body class="{{ page.layout }} {{ page.classes }}">

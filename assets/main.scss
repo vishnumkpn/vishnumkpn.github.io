@@ -1,12 +1,12 @@
 @import "minima";
 
-// 1. Reset page margins
+//–– 1) Reset overall page margins
 body {
   margin: 0;
   padding: 0;
 }
 
-// 2. Header styling (full-width teal bar)
+//–– 2) Header bar: full-width teal
 .site-header {
   background-color: #063737 !important;
   width: 100%;
@@ -14,7 +14,7 @@ body {
   padding: 1rem 0;
 }
 
-// 3. Flex container for left/right sections
+//–– 3) Flex container: left/right
 .site-header .wrapper {
   display: flex;
   justify-content: space-between;
@@ -24,7 +24,7 @@ body {
   padding: 0 1rem;
 }
 
-// 4. Left side: site title & nav
+//–– 4) Left block styling
 .header-left .site-title,
 .header-left .nav-link {
   color: #fff;
@@ -41,6 +41,7 @@ body {
   font-size: 1rem;
 }
 
+//–– 5) Right block: icons
 .header-right {
   display: flex;
   align-items: center;
@@ -51,7 +52,14 @@ body {
 }
 
 .header-right img {
-  height: 1.25em;
+  height: 1.25em;    // keeps all icons uniform
   width: auto;
   display: block;
+}
+
+//–– 6) Make main content full-width
+main.wrapper {
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 1rem !important;
 }
