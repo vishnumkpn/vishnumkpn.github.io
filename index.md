@@ -1,36 +1,11 @@
-### Education
-B.Tech ECE @ NITW (2021-2025)
+# Home
 
-### Work Experience
-ML Engineer @ Aerobotics7
-- impact 1
-- impact 2
-  
-ML Intern @ Aerobotics7
-- impact 1
-- impact 2
+I'm Vishnu Murali Krishnan, a recent engineering graduate from NIT Warangal. I have a strong passion working with and learning about tech in general and specifally about LLMs, Agentic AI and Computer Vision
 
-### Projects
-Shakspearean GPT
--desc
--impact
+## Experience
 
-DescraPix
--desc
--impact
+I've had over a year of experience working in machihe learning and solving real world challenges as an MLE @ Aerobotics7
 
-PDF Chatbot
--desc
--impact
+## Just Testing Out
 
-Resume Classifier
--desc
--impact
-
-Sonar Mine Vs Rock
--desc
--impact
-
-S11 Parameter prediction
--desc
--impact
+Prod Prod Prod
