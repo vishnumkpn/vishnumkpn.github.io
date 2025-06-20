@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>{{ page.title | default: site.title }}</title>
+    <meta name="description" content="{{ site.description | default: "" }}" />
+
+    <!-- Jekyll feed & main stylesheet -->
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="{{ site.title }}"
+      href="{{ "/feed.xml" | relative_url }}"
+    />
+    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}" />
+
+    {{ content_for_head }}
+
+    <!-- Google Fonts: Roboto -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-dyZ88n1UzrZWI1UgE4+Pznj0Ixg4sUolh3Zl+VJC0l5URlSF49K0l9e3rRjRHEX6+ijl5Z3L4glB7PhJd2v8vg=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="{{ page.layout }}{{ page.classes }}">
+    {% include header.html %}
