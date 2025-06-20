@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>{{ page.title | default: site.title }}</title>
-    <meta name="description" content="{{ site.description | default: "" }}" />
+    <meta name="description" content="{{ page.description | default: site.description }}" />
 
     <!-- Jekyll feed & main stylesheet -->
     <link
@@ -32,7 +32,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
       integrity="sha512-dyZ88n1UzrZWI1UgE4+Pznj0Ixg4sUolh3Zl+VJC0l5URlSF49K0l9e3rRjRHEX6+ijl5Z3L4glB7PhJd2v8vg=="
       crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
   </head>
   <body class="{{ page.layout }}{{ page.classes }}">
-    {% include header.html %}
