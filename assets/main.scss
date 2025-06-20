@@ -1,31 +1,32 @@
 @import "minima";
 
-
-body {
-  margin: 0;
-  padding: 0;
-}
-
-body,
-.site-header,
-.site-header a {
-  font-family: "Roboto", sans-serif;
-}
-
 .site-header {
-  margin: 0;
-  width: 100%;
+  background-color: #063737 !important;
   padding: 1rem 0;
-  background-color: #063737;
+  width: 100%;
+  margin: 0;
 }
+
 .site-header .wrapper {
   max-width: none !important;
-  margin: 0;
+  margin: 0 auto;
   padding: 0 1rem;
 }
 
-main.wrapper {
-  max-width: none !important;
-  margin: 0 !important;
-  padding: 0 1rem !important;
+.site-title,
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.social-icons a {
+  margin-right: 0.5rem;
+  display: inline-block;
+}
+
+.social-icons img {
+  height: 1.25em;
+  vertical-align: middle;
 }
