@@ -1,5 +1,3 @@
-# Data Scientist
-
 ### Education
 B.Tech ECE @ NITW (2021-2025)
 
