@@ -27,6 +27,11 @@ body {
 }
 
 //–– 4) Left block styling
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
 .header-left .site-title,
 .header-left .nav-link {
   color: #A1A1A1;
@@ -35,7 +40,7 @@ body {
 }
 
 .header-left .site-title {
-  font-size: 1rem;
+  font-size: 1.25rem;
   margin-right: 1rem;
   color: #A1A1A1;
   text-decoration: none;
